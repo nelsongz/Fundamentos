@@ -1,0 +1,62 @@
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+.border {
+    border: 2px solid;
+    border-color: black;
+}
+.item {
+    background-color: peru;
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    /* width: 200px; */
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-items: flex-end;
+    /*align-content: space-between; */
+}
+.align-self-start {
+    align-self: flex-start;
+}
+.h-700 {
+    height: 700px;
+}
+.h-300 {
+    height: 300px;
+}
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.flex-grow-1 {
+    flex-grow: 1;
+}
+.flex-grow-2 {
+    flex-grow: 2;
+}
+.flex-shrink-0 {  /*Tamaño minimo que no se achica */
+    width: 300px;
+    flex-shrink: 0;
+}
+.flex-basis-1 { /*Ocupa el 50% del espacio disponible*/
+    flex-basis: 50%;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-2 { /*grow shrink basis */
+    flex: 1 0 300px;
+}
